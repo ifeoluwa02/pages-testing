@@ -1,0 +1,44 @@
+@media (max-width: 1120px){
+    .mini_div{
+        flex-basis: 50%;
+    }
+}
+
+@media (max-width: 990px){
+    .mini_div{
+        flex-basis: 60%;
+    }
+}
+
+@media (max-width: 850px){
+    .main_container{
+        padding: 10px;
+
+    }
+    .mini_div{
+        flex-basis: 67%;
+        height: 50vh;
+    }
+}
+
+@media (max-width: 650px){
+    .mini_div{
+        flex-basis: 70%;
+        height: 60vh;
+
+    }
+    .image_dis{
+        display: none;
+    }
+    .details{
+        flex-basis: 100%;
+    }
+}
+
+
+@media (max-width: 550px){
+    .mini_div{
+        flex-basis: 90%;
+    }
+
+}
